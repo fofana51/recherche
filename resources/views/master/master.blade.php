@@ -44,8 +44,8 @@
       <div class="container">
         <div class="row align-items-center gx-4">
           <div class="col-auto d-none d-lg-block fs--1"><span class="fas fa-map-marker-alt text-warning me-2" data-fa-transform="grow-3"></span>1010 Avenue, Ouagadougou, O 10018 BF. </div>
-          <div class="col-auto ms-md-auto order-md-2 d-none d-sm-flex fs--1 align-items-center"><li><a class="ms-2 fs--1 d-inline text-white fw-bold " href="pages/login.html">Se connecter </a></li>
-            <li><a class="ms-2 fs--1 d-inline text-white fw-bold list-style-type: none;" href="pages/registration.html">s'inscrire</a></li></div>
+          <div class="col-auto ms-md-auto order-md-2 d-none d-sm-flex fs--1 align-items-center"><li><a class="ms-2 fs--1 d-inline text-white fw-bold " href="{{route('login')}}">Se connecter </a></li>
+            <li><a class="ms-2 fs--1 d-inline text-white fw-bold list-style-type: none;" href="{{route('registration')}}">s'inscrire</a></li></div>
           <div class="col-auto"><span class="fas fa-phone-alt text-warning" data-fa-transform="shrink-3"></span><a class="ms-2 fs--1 d-inline text-white fw-bold" href="href="pages/login.html"">226 51887245, 226 65481936</a></div>
         </div>
       </div>
@@ -61,11 +61,11 @@
               </li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle dropdown-indicator" href="JavaScript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">Domaines</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="{{route('contact')}}">Sciences de la Santé</a></li>pages/science
-                  <li><a class="dropdown-item" href="pages/agronomie.html">Agronomie</a></li>
-                  <li><a class="dropdown-item" href="pages/biologie.html">Biologie</a></li>
-                  <li><a class="dropdown-item" href="pages/mpc.html">Mathématiques-Physiques-Chimie</a></li>
-                  <li><a class="dropdown-item" href="pages/sti.html">Sciences et Techniques de l'ingenieur</a></li>
+                  <li><a class="dropdown-item" href="{{route('science')}}">Sciences de la Santé</a></li>pages/science
+                  <li><a class="dropdown-item" href="{{route('agronomie')}}">Agronomie</a></li>
+                  <li><a class="dropdown-item" href="{{route('biologie')}}">Biologie</a></li>
+                  <li><a class="dropdown-item" href="{{route('mpc')}}">Mathématiques-Physiques-Chimie</a></li>
+                  <li><a class="dropdown-item" href="{{route('sti')}}">Sciences et Techniques de l'ingenieur</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown"><a class="nav-link" href="{{route('contact')}}" role="button">Contact</a></li>

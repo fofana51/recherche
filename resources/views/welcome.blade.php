@@ -31,7 +31,7 @@
                       <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" data-zanim-xs='{"delay":0.1}'>1,6 milliard FCFA destinés au financement des  projets pour la lutte contre le coronavirus, les maladies infectieuses, ..</p>
                     </div>
                     <div class="overflow-hidden">
-                      <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3" href="#!">Read more<span class="fas fa-chevron-right ms-2"></span></a><a class="btn btn-warning mt-3" href="contact.html">Contact us<span class="fas fa-chevron-right ms-2"></span></a></div>
+                      <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-warning mt-3" href="{{route('contact')}}">Contacter Nous<span class="fas fa-chevron-right ms-2"></span></a></div>
                     </div>
                   </div>
                 </div>
@@ -50,7 +50,7 @@
                       <p class="text-primary pt-4 mb-5 fs-1 fs-md-2 lh-xs" data-zanim-xs='{"delay":0.1}'>Bitatoré,une technologie mise au point par les chercheurs dans le cadre de la politique de préservation de l’environnement et d’allégemebt  des tâches ménagères des femmes.</p>
                     </div>
                     <div class="overflow-hidden">
-                      <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-primary me-3 mt-3" href="#!">Read more<span class="fas fa-chevron-right ms-2"></span></a><a class="btn btn-warning mt-3" href="contact.html">Contact us<span class="fas fa-chevron-right ms-2"></span></a></div>
+                      <div data-zanim-xs='{"delay":0.2}'><a class="btn btn-warning mt-3" href="{{route('contact')}}">Contacter Nous<span class="fas fa-chevron-right ms-2"></span></a></div>
                     </div>
                   </div>
                 </div>
@@ -63,7 +63,7 @@
         </div>
       </section>
        <!-- <section> begin ============================-->
-        <section class="bg-100">
+       <section class="bg-100">
           <div class="container">
             <div class="text-center mb-6">
               <h3 class="fs-2 fs-md-3">Actualités</h3>
@@ -71,55 +71,61 @@
             </div>
             <div class="row g-4">
               <div class="col-md-6 col-lg-4">
-                <div class="card"><a href="news/news.html"><img class="card-img-top" src="{{asset('img/9.jpg')}}" alt="Featured Image" /></a>
+                <div class="card"><a href="{{route('news')}}"><img class="card-img-top" src="{{asset('img/fem.jpg')}}" alt="Featured Image" /></a>
                   <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="overflow-hidden"><a href="news/news.html">
-                        <h5 data-zanim-xs='{"delay":0}'>Tax impacts of lease mean accounting change</h5>
+                    <div class="overflow-hidden"><a href="{{route('news')}}">
+                        <h5 data-zanim-xs='{"delay":0}'>  Recherches au niveau des maladies vectorielles</h5>
                       </a></div>
                     <div class="overflow-hidden">
-                      <p class="text-500" data-zanim-xs='{"delay":0.1}'>By Paul O'Sullivan</p>
+                      <p class="text-500" data-zanim-xs='{"delay":0.1}'>Par Léa Paré/Toé</p>
                     </div>
                     <div class="overflow-hidden">
-                      <p class="mt-3" data-zanim-xs='{"delay":0.2}'>HMRC released a consultation document to flag some potential tax impacts that a forthcoming change...</p>
+                      <p class="mt-3" data-zanim-xs='{"delay":0.2}'>Prix de la meilleure
+ femme chercheure dans le domaine 
+des maladies vectorielles.</p>
                     </div>
                     <div class="overflow-hidden">
-                      <div class="d-inline-block" data-zanim-xs='{"delay":0.3}'><a class="d-flex align-items-center" href="news/news.html">Learn More<div class="overflow-hidden ms-2" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'><span class="d-inline-block fw-medium">&xrarr;</span></div></a></div>
+                      <div class="d-inline-block" data-zanim-xs='{"delay":0.3}'><a class="d-flex align-items-center" href="{{route('news')}}">Lire Plus<div class="overflow-hidden ms-2" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'><span class="d-inline-block fw-medium">&xrarr;</span></div></a></div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 col-lg-4">
-                <div class="card"><a href="news/news.html"><img class="card-img-top" src="{{asset('img/10.jpg')}}" alt="Featured Image" /></a>
+                <div class="card"><a href="{{route('news')}}"><img class="card-img-top" src="{{asset('img/actu1.jpg')}}" alt="Featured Image" /></a>
                   <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="overflow-hidden"><a href="news/news.html">
-                        <h5 data-zanim-xs='{"delay":0}'>What brexit means for data protection law</h5>
+                    <div class="overflow-hidden"><a href="{{route('news')}}">
+                        <h5 data-zanim-xs='{"delay":0}'> Recherches au niveau de la santé</h5>
                       </a></div>
                     <div class="overflow-hidden">
-                      <p class="text-500" data-zanim-xs='{"delay":0.1}'>By Enrico Ambrosi</p>
+                      <p class="text-500" data-zanim-xs='{"delay":0.1}'> Par Pr Abdoulaye  Diabaté</p>
                     </div>
                     <div class="overflow-hidden">
-                      <p class="mt-3" data-zanim-xs='{"delay":0.2}'>Assuming that the referendum is not ignored completely, there are two possible futures for the UK...</p>
+                      <p class="mt-3" data-zanim-xs='{"delay":0.2}'>
+ membre de la prestigieuse 
+Académie Africaine des Sciences</p>
                     </div>
                     <div class="overflow-hidden">
-                      <div class="d-inline-block" data-zanim-xs='{"delay":0.3}'><a class="d-flex align-items-center" href="news/news.html">Learn More<div class="overflow-hidden ms-2" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'><span class="d-inline-block fw-medium">&xrarr;</span></div></a></div>
+                      <div class="d-inline-block" data-zanim-xs='{"delay":0.3}'><a class="d-flex align-items-center" href="{{route('news')}}">Lire Plus<div class="overflow-hidden ms-2" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'><span class="d-inline-block fw-medium">&xrarr;</span></div></a></div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 col-lg-4">
-                <div class="card"><a href="news/news.html"><img class="card-img-top" src="{{asset('img/11.jpg')}}" alt="Featured Image" /></a>
+                <div class="card"><a href="{{route('news')}}"><img class="card-img-top" src="{{asset('img/4-3943-adebb.jpg')}}" alt="Featured Image" /></a>
                   <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-                    <div class="overflow-hidden"><a href="news/news.html">
-                        <h5 data-zanim-xs='{"delay":0}'>The growing meanace of social engineering fraud</h5>
+                    <div class="overflow-hidden"><a href="{{route('news')}}">
+                        <h5 data-zanim-xs='{"delay":0}'> Recherches au niveau des sciences Humaines</h5>
                       </a></div>
                     <div class="overflow-hidden">
-                      <p class="text-500" data-zanim-xs='{"delay":0.1}'>By Robson</p>
+                      <p class="text-500" data-zanim-xs='{"delay":0.1}'>Virginie W. Yaméogo</p>
                     </div>
                     <div class="overflow-hidden">
-                      <p class="mt-3" data-zanim-xs='{"delay":0.2}'>Social engineering involves the collection of information from various sources about a target...</p>
+                      <p class="mt-3" data-zanim-xs='{"delay":0.2}'>, prix de la meilleure 
+présentation scientifique des résultats 
+de projet changement climatique.</p>
                     </div>
                     <div class="overflow-hidden">
-                      <div class="d-inline-block" data-zanim-xs='{"delay":0.3}'><a class="d-flex align-items-center" href="news/news.html">Learn More<div class="overflow-hidden ms-2" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'><span class="d-inline-block fw-medium">&xrarr;</span></div></a></div>
+                      <div class="d-inline-block" data-zanim-xs='{"delay":0.3}'><a class="d-flex align-items-center" href="{{route('news')}}">Lire Plus<div class="overflow-hidden ms-2" data-zanim-xs='{"from":{"opacity":0,"x":-30},"to":{"opacity":1,"x":0},"delay":0.8}'><span class="d-inline-block fw-medium">&xrarr;</span></div></a></div>
                     </div>
                   </div>
                 </div>
@@ -157,69 +163,74 @@
           <div class="row">
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="px-3 py-4 px-lg-4">
-                <div class="overflow-hidden"><img src="{{asset('img/icons/sharing.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
+                <div class="overflow-hidden"><img src="{{asset('img/sd.jpg')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
                 <div class="overflow-hidden">
-                  <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Creative Support</h5>
+                  <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Sciences De la Santé</h5>
                 </div>
                 <div class="overflow-hidden">
-                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We transform brands, grow businesses, and tell brand and product stories in a most creative way.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <div class="px-3 py-4 px-lg-4">
-                <div class="overflow-hidden"><img src="{{asset('img/icons/mail.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
-                <div class="overflow-hidden">
-                  <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Creating Experiences</h5>
-                </div>
-                <div class="overflow-hidden">
-                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We cover a large range of creative platforms and digital projects with one purpose: to create experiences.</p>
+                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>Les recherches dans le domaine de la santé prend de l'ampleur dans notre grace aux centres et  instituts de recherche.</p>
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="px-3 py-4 px-lg-4">
-                <div class="overflow-hidden"><img src="{{asset('img/icons/target.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
+                <div class="overflow-hidden"><img src="{{asset('img/agro.jpg')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
                 <div class="overflow-hidden">
-                  <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Product Consulting</h5>
+                  <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Agronomie</h5>
                 </div>
                 <div class="overflow-hidden">
-                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We guide you through the pipelines that generate new products with higher potential and lower risk.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
-              <div class="px-3 py-4 px-lg-4">
-                <div class="overflow-hidden"><img src="{{asset('img/icons/world-globe.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
-                <div class="overflow-hidden">
-                  <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Business Boosting</h5>
-                </div>
-                <div class="overflow-hidden">
-                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We provide energy-efficient and environmentally conservative solutions to our clients to boost their business.</p>
+                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>
+L'agronomie est la science de l'agriculture.Ces recherches font des merveillles</p>
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="px-3 py-4 px-lg-4">
-                <div class="overflow-hidden"><img src="{{asset('img/icons/money.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
+                <div class="overflow-hidden"><img src="{{asset('img/bio.jpg')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
                 <div class="overflow-hidden">
-                  <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Strategic Approach</h5>
+                  <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Biologie</h5>
                 </div>
                 <div class="overflow-hidden">
-                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>Based on solid strategic framework and real, relevant research, we create prototypes, not presentations.</p>
+                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>La biologie a trouvé sa place au Burkina Faso grace aux instituts et des centres de recherche ainsi que dans des laboratoires de biologie médicale.
+
+</p>
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
               <div class="px-3 py-4 px-lg-4">
+                <div class="overflow-hidden"><img src="{{asset('img/cp.jpg')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
+                <div class="overflow-hidden">
+                  <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Mathématiques-Physiques-Chimie</h5>
+                </div>
+                <div class="overflow-hidden">
+                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>Les mathématiques , les  physiques et la chimie ont évolués au Burkina Faso avec les recherches des grands chercheurs comme Pr Frédéric OUATTARA </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+              <div class="px-3 py-4 px-lg-4">
+                <div class="overflow-hidden"><img src="{{asset('img/5.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
+                <div class="overflow-hidden">
+                  <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Sciences et Techniques de l'Ingéniorat</h5>
+                </div>
+                <div class="overflow-hidden">
+                  <p class="mb-0" data-zanim-xs='{"delay":0.2}'>Les recherches dans la technique de l'ingéniorat permet d'améliorer les conditions de vie des burkinabés</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+              <!--   
+            <div class="px-3 py-4 px-lg-4">
                 <div class="overflow-hidden"><img src="{{asset('img/icons/data-analytics.png')}}" alt="icon" height="37" data-zanim-xs='{"delay":0}' /></div>
                 <div class="overflow-hidden">
                   <h5 class="mt-3" data-zanim-xs='{"delay":0.1}'>Logistic Consulting</h5>
                 </div>
-                <div class="overflow-hidden">
+             <div class="overflow-hidden">
                   <p class="mb-0" data-zanim-xs='{"delay":0.2}'>We work buy side and sell side to give our clienrts hard hitting answers and focus hard on best opportunities.</p>
                 </div>
               </div>
+              -->
             </div>
           </div>
         </div><!-- end of .container-->
@@ -271,91 +282,93 @@
           </div>
           <div class="row">
             <div class="col-sm-6 col-lg-4    ">
-              <div class="card h-100"><img class="card-img-top" src="{{asset('img/portrait-3.jpg')}}" alt="Reenal Scott" />
+              <div class="card h-100"><img class="card-img-top" src="{{asset('img/pr.jpg')}}" alt="Reenal Scott" />
                 <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                   <div class="overflow-hidden">
-                    <h5 data-zanim-xs='{"delay":0}'>Reenal Scott</h5>
+                    <h5 data-zanim-xs='{"delay":0}'>Pr Frédéric OUATTARA</h5>
                   </div>
                   <div class="overflow-hidden">
-                    <h6 class="fw-normal text-500" data-zanim-xs='{"delay":0.1}'>Advertising Consultant</h6>
+                    <h6 class="fw-normal text-500" data-zanim-xs='{"delay":0.1}'>Docteur en physique — Géophysique — Heliophysique </h6>
                   </div>
                   <div class="overflow-hidden">
-                    <p class="py-3 mb-0" data-zanim-xs='{"delay":0.2}'>Reenal Scott is the Founder and CEO of Elixir, which he started from his dorm room in 2013 with 3 people only.</p>
+                    <p class="py-3 mb-0" data-zanim-xs='{"delay":0.2}'>Au plan de la recherche, le Pr Frédéric OUATTARA est auteur d’une centaine de publications scientifiques. <!--S’agissant des distinctions, Il a obtenu en 2018 « le Prix Afrique pour l’Excellence de la Recherche en Physique Spatiale » de l’Union Américaine de Géophysique (AGU) à Washington DC, faisant de lui un membre de cette structure mondiale. Il est aussi membre de la Société Burkinabé de Physique, de la Société Ouest Africaine de Physique ; de l’African Geoscience Society et de l’Académie nationale des sciences, des arts et des lettres du Burkina Faso (ANSAL-BF). --></p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-lg-4 mt-4 mt-sm-0  ">
-              <div class="card h-100"><img class="card-img-top" src="{{asset('img/portrait-4.jpg')}}" alt="Lily Anderson" />
+              <div class="card h-100"><img class="card-img-top" src="{{asset('img/dr.jpg')}}" alt="Lily Anderson" />
                 <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                   <div class="overflow-hidden">
-                    <h5 data-zanim-xs='{"delay":0}'>Lily Anderson</h5>
+                    <h5 data-zanim-xs='{"delay":0}'>Dr Nonlo_Kadidia_DRABO</h5>
                   </div>
                   <div class="overflow-hidden">
-                    <h6 class="fw-normal text-500" data-zanim-xs='{"delay":0.1}'>Activation Consultant</h6>
+                    <h6 class="fw-normal text-500" data-zanim-xs='{"delay":0.1}'>Chercheur en énergie renouvellable à l'IRSAT</h6>
                   </div>
                   <div class="overflow-hidden">
-                    <p class="py-3 mb-0" data-zanim-xs='{"delay":0.2}'>Lily leads Elixir UK and oversees the company’s Customer Operations teams supporting millions ofr users.</p>
+                    <p class="py-3 mb-0" data-zanim-xs='{"delay":0.2}'> Dr Nonlo_Kadidia_DRABO est la prémiere femme ayant soutenue en physique dans le domaine de la metéorologie de l'espace </p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-lg-4 mt-4  mt-lg-0 ">
-              <div class="card h-100"><img class="card-img-top" src="{{asset('img/portrait-5.jpg')}}" alt="Thomas Anderson" />
+              <div class="card h-100"><img class="card-img-top" src="{{asset('img/drp.jpg')}}" alt="Thomas Anderson" />
                 <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                   <div class="overflow-hidden">
-                    <h5 data-zanim-xs='{"delay":0}'>Thomas Anderson</h5>
+                    <h5 data-zanim-xs='{"delay":0}'>SAVADOGO	Paul Windinpsidi</h5>
                   </div>
                   <div class="overflow-hidden">
-                    <h6 class="fw-normal text-500" data-zanim-xs='{"delay":0.1}'>Change Management Consultant</h6>
+                    <h6 class="fw-normal text-500" data-zanim-xs='{"delay":0.1}'>Directeur de Recherche</h6>
                   </div>
                   <div class="overflow-hidden">
-                    <p class="py-3 mb-0" data-zanim-xs='{"delay":0.2}'>As the VP of People, Thomas’s focus lies in the development and optimization of talent retention.</p>
+                    <p class="py-3 mb-0" data-zanim-xs='{"delay":0.2}'>Dr Paul SAVADOGO, chercheur à l'INERA, spécialiste des questions environnementales c'est à dire les l'eau et les sols.</p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-lg-4 mt-4   ">
-              <div class="card h-100"><img class="card-img-top" src="{{asset('img/portrait-6.jpg')}}" alt="Legartha Mantana" />
+              <div class="card h-100"><img class="card-img-top" src="{{asset('img/nac.jpg')}}" alt="Legartha Mantana" />
                 <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                   <div class="overflow-hidden">
-                    <h5 data-zanim-xs='{"delay":0}'>Legartha Mantana</h5>
+                    <h5 data-zanim-xs='{"delay":0}'>Dr Pindé Souleymane 	</h5>
                   </div>
                   <div class="overflow-hidden">
-                    <h6 class="fw-normal text-500" data-zanim-xs='{"delay":0.1}'>Brand Management Consultant</h6>
+                    <h6 class="fw-normal text-500" data-zanim-xs='{"delay":0.1}'>Docteur en 
+                      génétique
+                    </h6>
                   </div>
                   <div class="overflow-hidden">
-                    <p class="py-3 mb-0" data-zanim-xs='{"delay":0.2}'>As General Counsel of Elixir, Tony oversees global legal activities and policies across all aspects.</p>
+                    <p class="py-3 mb-0" data-zanim-xs='{"delay":0.2}'>Dr Pindé Souleymane est le premier doctorant à s’intéresser à la caractéristique génétique des poules locales .</p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-lg-4 mt-4   ">
-              <div class="card h-100"><img class="card-img-top" src="{{asset('img/portrait-7.jpg')}}" alt="John Snow" />
+              <div class="card h-100"><img class="card-img-top" src="{{asset('img/emile.jpg')}}" alt="John Snow" />
                 <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                   <div class="overflow-hidden">
-                    <h5 data-zanim-xs='{"delay":0}'>John Snow</h5>
+                    <h5 data-zanim-xs='{"delay":0}'> Dr DIALLA	Basga Emile	</h5>
                   </div>
                   <div class="overflow-hidden">
-                    <h6 class="fw-normal text-500" data-zanim-xs='{"delay":0.1}'>Business Analyst</h6>
+                    <h6 class="fw-normal text-500" data-zanim-xs='{"delay":0.1}'>Maître de Recherche</h6>
                   </div>
                   <div class="overflow-hidden">
-                    <p class="py-3 mb-0" data-zanim-xs='{"delay":0.2}'>John has overseen the meteoric growth while protecting scaling its uniquely creative and culture.</p>
+                    <p class="py-3 mb-0" data-zanim-xs='{"delay":0.2}'>Dr DIALLA	Basga Emile	est Maître de Recherche CAMES en Sociologie rurale à l'Institut des Sciences des Sociétés au CNRST.</p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-lg-4 mt-4   ">
-              <div class="card h-100"><img class="card-img-top" src="{{asset('img/portrait-1.jpg')}}" alt="Ragner Lothbrok" />
+              <div class="card h-100"><img class="card-img-top" src="{{asset('img/Ali.jpg')}}" alt="Ragner Lothbrok" />
                 <div class="card-body" data-zanim-timeline="{}" data-zanim-trigger="scroll">
                   <div class="overflow-hidden">
-                    <h5 data-zanim-xs='{"delay":0}'>Ragner Lothbrok</h5>
+                    <h5 data-zanim-xs='{"delay":0}'> Dr SOME SOMDA	Minimalo Alice	</h5>
                   </div>
                   <div class="overflow-hidden">
-                    <h6 class="fw-normal text-500" data-zanim-xs='{"delay":0.1}'>Business Consultant</h6>
+                    <h6 class="fw-normal text-500" data-zanim-xs='{"delay":0.1}'>Chargé de Recherche</h6>
                   </div>
                   <div class="overflow-hidden">
-                    <p class="py-3 mb-0" data-zanim-xs='{"delay":0.2}'>Ragner, SVP of Engineering, oversees Elixir’s vast engineering organization which drives the core programming.</p>
+                    <p class="py-3 mb-0" data-zanim-xs='{"delay":0.2}'>Dr SOME SOMDA	Minimalo Alice première femme docteure en philosophie du Burkina Faso. <!--Elle est membre du Laboratoire de philosophie (LAPHI) à l’Université Joseph Ki-Zerbo.--> </p>
                   </div>
                 </div>
               </div>
